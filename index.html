@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta
+      http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'"/>
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'"/>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Prepare for Hyperspace!</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+  </head>
+  <body>
+    <h1>Beep Boop, initiating hyperspace...</h1>  
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/js/bootstrap.min.js">
+    <div class="input-group mb-3">
+      <span class="input-group-text" id="ship-weight">Ship Weight</span>
+      <input type="text" class="form-control" placeholder="500t" aria-label="weight" aria-describedby="ship weight">
+    </div>
+
+    <div class="input-group mb-3">
+      <span class="input-group-text" id="distance">Distance</span>
+      <input type="text" class="form-control" placeholder="1 parsec" aria-label="distance" aria-describedby="distance">
+    </div>
+  </body>
+</html>
